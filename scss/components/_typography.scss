@@ -1,47 +1,20 @@
 // ALEXBRUSH
-@include font-face {
-  font-family: 'AlexBrush-Regular';
-  src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
-}
+@include font-face('AlexBrush-Regular', AlexBrush-Regular);
 
 // MUKTAVAANI
-@include font-face {
-  font-family: 'MuktaVaani-Bold';
-  src: url('../fonts/MuktaVaani-Bold.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-Bold', MuktaVaani-Bold);
 
-@include font-face {
-  font-family: 'MuktaVaani-ExtraBold';
-  src: url('../fonts/MuktaVaani-ExtraBold.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-ExtraBold', MuktaVaani-ExtraBold);
 
-@include font-face {
-  font-family: 'MuktaVaani-ExtraLight';
-  src: url('../fonts/MuktaVaani-ExtraLight.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-ExtraLight', MuktaVaani-ExtraLight);
 
-@include font-face {
-  font-family: 'MuktaVaani-Light';
-  src: url('../fonts/MuktaVaani-Light.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-Light', MuktaVaani-Light);
 
-@include font-face {
-  font-family: 'MuktaVaani-Medium';
-  src: url('../fonts/MuktaVaani-Medium.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-Medium', MuktaVaani-Medium);
 
-@include font-face {
-  font-family: 'MuktaVaani-Regular';
-  src: url('../fonts/MuktaVaani-Regular.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-Regular', MuktaVaani-Regular);
 
-@include font-face {
-  font-family: 'MuktaVaani-SemiBold';
-  src: url('../fonts/MuktaVaani-SemiBold.ttf') format('truetype');
-}
+@include font-face('MuktaVaani-SemiBold', MuktaVaani-SemiBold);
 
 // TENDERNESS
-@include font-face {
-  font-family: 'Tenderness';
-  src: url('../fonts/Tenderness.otf') format('opentype');
-}
+@include font-face ('Tenderness', Tenderness);
