@@ -1,9 +1,44 @@
-// FONT STACKS //
-$stack-sans-serif: sans-serif;
+// DESCRIPTIVE COLOR VARIABLES
+
+$white          : #F9F9F9;
+$black          : #0E0B16;
+$dark-grey      : #A9A9A9;
+$light-grey     : #C8C8C8;
+$eggplant       : #49274A;
+
+
+// FUNCTIONAL COLOR VARIABLES
+// $color-prim         : $ ;
+// $color-sec          : $ ;
+
+$color-text-light   : $white;
+$color-text-dark    : $black;
+
+$color-border-light : $dark-grey;
+$color-border-dark  : $eggplant;
+
+
+// FONT STACKS
+$stack-sans-serif: Candara, Helvetica, sans-serif;
 $stack-script: "Brush Script MT", cursive;
 $stack-alexBrushRegular: "AlexBrush-Regular", $stack-script;
+$stack-muktaVaaniBold: "MuktaVaani-Bold", $stack-sans-serif;
+$stack-muktaVaaniExtraBold: "MuktaVaani-ExtraBold", $stack-sans-serif;
+$stack-muktaVaaniExtraLight: "MuktaVaani-ExtraLight", $stack-sans-serif;
+$stack-muktaVaaniLight: "MuktaVaani-Light", $stack-sans-serif;
+$stack-muktaVaaniMedium: "MuktaVaani-Medium", $stack-sans-serif;
+$stack-muktaVaaniRegular: "MuktaVaani-Regular", $stack-sans-serif;
+$stack-muktaVaaniSemiBold: "MuktaVaani-SemiBold", $stack-sans-serif;
+$stack-tenderness: "Tenderness", Optima, $stack-sans-serif;
 
-// Asset paths
+
+// ASSET PATHS
 
 $path-img  : '../img';
 $path-font : '../fonts';
+
+
+// MEDIA QUERY BREAKPOINTS
+
+// $brk-narrow : '(max-width: 768px)';
+// $brk-wide   : '(max-width: 1024px)';
