@@ -5,9 +5,10 @@
     height: 450px;
     color: $color-text-light;
     text-align: center;
+    display: flex;
 
     .tron-text{
-        margin-top: 4em;
+        margin: auto;
         
         .intro-text{
             font-family: $stack-alexBrushRegular;
@@ -33,6 +34,7 @@
 .port-cards {
     background-color: $color-border-light;
     padding: 0.5em 2.5em 0.5em 2.5em; 
+    margin-bottom: 2em;
 
     .card-deck{
 
