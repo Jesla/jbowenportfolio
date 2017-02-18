@@ -3,6 +3,16 @@
     background-image: url(../images/home_image_blur.png);
     background-size: cover;
     height: 450px;
+    color: $color-text-light;
+    text-align: center;
+
+    .tron-text{
+        margin-top: 4em;
+        
+        .intro-text{
+            font-family: $stack-alexBrushRegular;
+        }
+    }
 }
 
 //bio-splash section
@@ -22,7 +32,27 @@
 //home-page cards
 .port-cards {
     background-color: $color-border-light;
-    padding: 0.5em 0.5em 0.5em 0.5em; 
+    padding: 0.5em 2.5em 0.5em 2.5em; 
+
+    .card-deck{
+
+        .card{
+            background-color: rgba($color-text-light, .5);
+            border: solid 1px $color-border-dark;
+
+            .card-block{
+
+                .card-title{
+                    font-family: $stack-muktaVaaniSemiBold;
+                }
+
+                .card-text{
+                    font-family: $stack-muktaVaaniLight;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
 }
 
 .film-img{
