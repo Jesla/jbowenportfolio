@@ -1,4 +1,60 @@
+//jumbotron
 .home-image {
-    background-image: url(../images/home_image.png);
-    height: 700px;
+    background-image: url(../images/home_image_blur.png);
+    background-size: cover;
+    height: 450px;
+}
+
+//bio-splash section
+#bio-splash{
+    text-align: center;
+    margin: 1em 4em 2em 4em;
+
+    #hr-top{
+        border-width: 3px;
+    }
+    #hr-bottom{
+        border-width: 3px;
+    }
+}
+
+
+//home-page cards
+.port-cards {
+    background-color: $color-border-light;
+    padding: 0.5em 0.5em 0.5em 0.5em; 
+}
+
+.film-img{
+    border-radius: 50%;
+    background-image: url("../images/home_image_perspective.png");
+    background-size: cover;
+    border: 3px solid $color-border-dark;
+    height: 130px;
+    margin: 1.75em 3.5em 1.75em 3.5em;
+}
+
+.stage-img{
+    border-radius: 50%;
+    background-image: url("../images/home_image_perspective.png");
+    background-size: cover;
+    border: 3px solid $color-border-dark;
+    height: 130px;
+    margin: 1.75em 3.5em 1.75em 3.5em;
+}
+.beauty-img{
+    border-radius: 50%;
+    background-image: url("../images/home_image_perspective.png");
+    background-size: cover;
+    border: 3px solid $color-border-dark;
+    height: 130px;
+    margin: 1.75em 3.5em 1.75em 3.5em;
+}
+.bio-img{
+    border-radius: 50%;
+    background-image: url("../images/home_image_perspective.png");
+    background-size: cover;
+    border: 3px solid $color-border-dark;
+    height: 130px;
+    margin: 1.75em 3.5em 1.75em 3.5em;
 }

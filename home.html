@@ -13,6 +13,7 @@
     <!--<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="navbar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/application.css">
 </head>
@@ -20,7 +21,7 @@
 <body>
 
     <!--BEGIN TOP NAV-->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" style="background-color: #0E0B16;">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,8 +47,9 @@
             </li>
             </ul>
             <ul class="nav navbar-nav navbar-sub pull-right">
-                <li class = "navbar-text">555-555-5555 </li>
-                <li class= "navbar-text">jb@jbowen.com</li>
+                <li class = "navbar-text"><i class="fa fa-phone" aria-hidden="true"></i> 555-555-5555 </li>
+                <li class = "navbar-text">......</li>
+                <li class= "navbar-text"><i class="fa fa-envelope-o" aria-hidden="true"></i> jb@jbowen.com</li>
             </ul>
         </div>
         </nav>
@@ -57,11 +59,110 @@
 
     <!--BEGIN PAGE CONTENT-->
 
+        <!--JUMBOTRON-->
         <div class="jumbotron jumbotron-fluid home-image">
-            <h1 class="display-3 intro-text">Makeup By Jared Bowen</h1>
-        <p class="lead">This is an intro statement that will be written at a later time</p>
+            <div class="container">
+                <h1 class="display-3 intro-text">Fluid jumbotron</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+        <!--BIO WITH HEADLINE-->
+        <div id="bio-splash">
+            <hr id="hr-top" width="40%">
+            <h2>A Great Big Headline That Gets Attention!</h2>
+            <p>Jared is the greatest person in the world. I can't believe just how great he is. Woo! One day, we'll have even more relevant text to put into this paragraph section. So much text you won't believe it. Seriously, they tell me. Just so much text.</p>
+            <hr id="hr-bottom" width="25%">
         </div>
 
+
+
+        <!--CARDS-->
+        <!--<section>
+            <div class="port-cards">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="..." alt="Film portfolio header">
+                            <div class="card-block">
+                                <h4 class="card-title">Film</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="..." alt="Film portfolio header">
+                            <div class="card-block">
+                                <h4 class="card-title">Stage</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="..." alt="Film portfolio header">
+                            <div class="card-block">
+                                <h4 class="card-title">Beauty</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="..." alt="Film portfolio header">
+                            <div class="card-block">
+                                <h4 class="card-title">Jared</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!--alternate-->
+        <section>
+            <div class="port-cards">
+                    <div class="card-deck">
+                        <div class="card text-center">
+                            <div class="film-img"></div>
+                            <div class="card-block">
+                                <h4 class="card-title">Film</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="stage-img"></div>
+                            <div class="card-block">
+                                <h4 class="card-title">Stage</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>    
+                        <div class="card text-center">
+                            <div class="beauty-img"></div>
+                            <div class="card-block">
+                                <h4 class="card-title">Beauty</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="bio-img"></div>
+                            <div class="card-block">
+                                <h4 class="card-title">Jared</h4>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
     <!--END PAGE CONTENT-->
 
 
