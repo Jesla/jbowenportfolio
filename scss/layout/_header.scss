@@ -1,3 +1,20 @@
 .navbar-inverse{
     background-color: $background-dark;
 }
+
+.navbar-nav > li > .dropdown-menu{
+    background-color: $background-dark;
+    color: $color-text-light;
+
+    .dropdown-item{
+        color: $dark-grey;
+    }
+}
+
+// .mr-auto{
+
+//         color: lightgreen;
+//     }
+// .navbar-brand{
+//     color: #49274A;
+//     }

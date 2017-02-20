@@ -1,0 +1,11 @@
+// LOGO/Brand
+.navbar > a{
+    color: purple;
+    font-family: $stack-alexBrushRegular;
+}
+@media (max-width: 415px){
+        .navbar > a{
+        color: purple;
+        font-size: 1.5rem;
+    }
+}

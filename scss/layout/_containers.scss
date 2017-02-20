@@ -14,6 +14,20 @@
         .intro-text{
             font-family: $stack-alexBrushRegular;
         }
+        @media (max-width: 415px){
+            .intro-text{
+                font-size: 3rem;
+            }
+            .lead{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+@media (max-width: 415px){
+    .home-image{
+        height: 250px;
+        margin-top: 3em;
     }
 }
 
@@ -343,7 +357,7 @@
     }
 }
 
-//BIO PAGE 
+//BIO PAGE ------------------------------------------
 //main splash image
 .bio-image{
     background-image: url("../images/modelRight.jpg");
@@ -361,3 +375,10 @@
         border: solid 1px $color-border-dark;
     }
 }
+
+//----CONTACT PAGE-----------------------------
+    //spacer for contact collapse
+    .spacer{
+        width: 100%;
+        height: 2em;
+    }
