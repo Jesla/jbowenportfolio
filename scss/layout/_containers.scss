@@ -1,3 +1,4 @@
+//HOMEPAGE
 //jumbotron
 .home-image {
     background-image: url(../images/home_image_blur.png);
@@ -41,7 +42,11 @@
         .card{
             background-color: rgba($color-text-light, .5);
             border: solid 1px $color-border-dark;
-
+            color: $black;
+            a{
+                        text-decoration: none;
+                        color: $black;
+                    }
             .card-block{
 
                 .card-title{
@@ -56,7 +61,7 @@
         }
     }
 }
-
+   //film image
 .film-img{
     border-radius: 50%;
     background-image: url("../images/home_image_perspective.png");
@@ -65,7 +70,68 @@
     height: 130px;
     margin: 1.75em 3.5em 0.0em 3.5em;
 }
-
+@media (max-width: 1040px){
+    .film-img{
+        // mar
+        height: 115px;
+    }
+}
+@media (max-width: 975px){
+    .film-img{
+        margin: 1.50em 3.25em 0.0em 3.25em;
+        height: 100px;
+    }
+}
+@media (max-width: 915px){
+    .film-img{
+        height: 100px;
+        margin: 1.50em 3.25em 0.0em 3.25em;
+    }
+}
+@media (max-width: 850px){
+    .film-img{
+        height: 100px;
+        margin: 1.50em 2.5em 0.0em 2.5em;
+    }
+}
+@media (max-width: 750px){
+    .film-img{
+        height: 100px;
+        margin: 1.50em 1.5em 0.0em 1.5em;
+    }
+}
+@media (max-width: 650px){
+    .film-img{
+        height: 100px;
+        margin: 1.50em 1.0em 0.0em 1.0em;
+    }
+}
+             //When cards drop down
+@media (max-width: 575px){
+    .film-img{
+        margin: 1.75em 9.5em 0.0em 9.5em;
+        height: 165px;
+    }
+}
+@media (max-width: 485px){
+    .film-img{
+        margin: 1.75em 7.5em 0.0em 7.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 425px){
+    .film-img{
+        margin: 1.75em 5.5em 0.0em 5.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 375px){
+    .film-img{
+        margin: 1.75em 3.5em 0.0em 3.5em;
+        height: 175px;
+    }
+}
+      //stage image
 .stage-img{
     border-radius: 50%;
     background-image: url("../images/home_image_perspective.png");
@@ -74,6 +140,69 @@
     height: 130px;
     margin: 1.75em 3.5em 0.0em 3.5em;
 }
+@media (max-width: 1040px){
+    .stage-img{
+        // mar
+        height: 115px;
+    }
+}
+@media (max-width: 975px){
+    .stage-img{
+        margin: 1.50em 3.25em 0.0em 3.25em;
+        height: 100px;
+    }
+}
+@media (max-width: 915px){
+    .stage-img{
+        height: 100px;
+        margin: 1.50em 3.25em 0.0em 3.25em;
+    }
+}
+@media (max-width: 850px){
+    .stage-img{
+        height: 100px;
+        margin: 1.50em 2.5em 0.0em 2.5em;
+    }
+}
+@media (max-width: 750px){
+    .stage-img{
+        height: 100px;
+        margin: 1.50em 1.5em 0.0em 1.5em;
+    }
+}
+@media (max-width: 650px){
+    .stage-img{
+        height: 100px;
+        margin: 1.50em 1.0em 0.0em 1.0em;
+    }
+}
+             //When cards drop down
+@media (max-width: 575px){
+    .stage-img{
+        margin: 1.75em 9.5em 0.0em 9.5em;
+        height: 165px;
+    }
+}
+@media (max-width: 485px){
+    .stage-img{
+        margin: 1.75em 7.5em 0.0em 7.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 425px){
+    .stage-img{
+        margin: 1.75em 5.5em 0.0em 5.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 375px){
+    .stage-img{
+        margin: 1.75em 3.5em 0.0em 3.5em;
+        height: 175px;
+    }
+}
+
+    //beauty image
 .beauty-img{
     border-radius: 50%;
     background-image: url("../images/home_image_perspective.png");
@@ -82,6 +211,68 @@
     height: 130px;
     margin: 1.75em 3.5em 0.0em 3.5em;
 }
+@media (max-width: 1040px){
+    .beauty-img{
+        // mar
+        height: 115px;
+    }
+}
+@media (max-width: 975px){
+    .beauty-img{
+        margin: 1.50em 3.25em 0.0em 3.25em;
+        height: 100px;
+    }
+}
+@media (max-width: 915px){
+    .beauty-img{
+        height: 100px;
+        margin: 1.50em 3.25em 0.0em 3.25em;
+    }
+}
+@media (max-width: 850px){
+    .beauty-img{
+        height: 100px;
+        margin: 1.50em 2.5em 0.0em 2.5em;
+    }
+}
+@media (max-width: 750px){
+    .beauty-img{
+        height: 100px;
+        margin: 1.50em 1.5em 0.0em 1.5em;
+    }
+}
+@media (max-width: 650px){
+    .beauty-img{
+        height: 100px;
+        margin: 1.50em 1.0em 0.0em 1.0em;
+    }
+}
+             //When cards drop down
+@media (max-width: 575px){
+    .beauty-img{
+        margin: 1.75em 9.5em 0.0em 9.5em;
+        height: 165px;
+    }
+}
+@media (max-width: 485px){
+    .beauty-img{
+        margin: 1.75em 7.5em 0.0em 7.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 425px){
+    .beauty-img{
+        margin: 1.75em 5.5em 0.0em 5.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 375px){
+    .beauty-img{
+        margin: 1.75em 3.5em 0.0em 3.5em;
+        height: 175px;
+    }
+}
+
 .bio-img{
     border-radius: 50%;
     background-image: url("../images/home_image_perspective.png");
@@ -90,4 +281,83 @@
     height: 130px;
     margin: 1.75em 3.5em 0.0em 3.5em;
 }
+@media (max-width: 1040px){
+    .bio-img{
+        // mar
+        height: 115px;
+    }
+}
+@media (max-width: 975px){
+    .bio-img{
+        margin: 1.50em 3.25em 0.0em 3.25em;
+        height: 100px;
+    }
+}
+@media (max-width: 915px){
+    .bio-img{
+        height: 100px;
+        margin: 1.50em 3.25em 0.0em 3.25em;
+    }
+}
+@media (max-width: 850px){
+    .bio-img{
+        height: 100px;
+        margin: 1.50em 2.5em 0.0em 2.5em;
+    }
+}
+@media (max-width: 750px){
+    .bio-img{
+        height: 100px;
+        margin: 1.50em 1.5em 0.0em 1.5em;
+    }
+}
+@media (max-width: 650px){
+    .bio-img{
+        height: 100px;
+        margin: 1.50em 1.0em 0.0em 1.0em;
+    }
+}
+             //When cards drop down
+@media (max-width: 575px){
+    .bio-img{
+        margin: 1.75em 9.5em 0.0em 9.5em;
+        height: 165px;
+    }
+}
+@media (max-width: 485px){
+    .bio-img{
+        margin: 1.75em 7.5em 0.0em 7.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 425px){
+    .bio-img{
+        margin: 1.75em 5.5em 0.0em 5.5em;
+        height: 175px;
+    }
+}
+@media (max-width: 375px){
+    .bio-img{
+        margin: 1.75em 3.5em 0.0em 3.5em;
+        height: 175px;
+    }
+}
 
+//BIO PAGE 
+//main splash image
+.bio-image{
+    background-image: url("../images/modelRight.jpg");
+    background-size: cover;
+    height: 375px;
+
+    .bio-block{
+        float: left;
+        margin-top: 0.75em;
+        background-color: rgba($background-light, .7);
+        max-width: 350px;
+        // min-width: 100px;
+        left: 3em;
+        padding: 1em 1em 1em 1em;
+        border: solid 1px $color-border-dark;
+    }
+}
