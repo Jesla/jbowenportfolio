@@ -414,3 +414,91 @@
             margin-bottom: 0.05em;
         }
     }
+
+//-----FILM PORTFOLIO-----------
+.film-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    -webkit-justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    // width: 150px;
+    left: 0;
+    right: 0;
+    min-height: 1000px;
+    margin-top: 4em;
+    margin-bottom: 1em;
+
+    .flex-img1{
+        background-image: url("../images/portfolio/thumbnails/1.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .flex-img2{
+        background-image: url("../images/portfolio/thumbnails/2.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .flex-img3{
+        background-image: url("../images/portfolio/thumbnails/3.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .flex-img4{
+        background-image: url("../images/portfolio/thumbnails/4.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;    
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .flex-img5{
+        background-image: url("../images/portfolio/thumbnails/5.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+    .flex-img6{
+        background-image: url("../images/portfolio/thumbnails/6.jpg");
+        background-size: cover;
+        background-color: purple;
+        min-width: 20%;
+        flex: 1;
+        margin: 0.5em 0.5em 0.5em 0.5em;
+    }
+}
+
+//------Beauty portfolio---------
+.portfolio-container{
+        margin-top: 4.5em;
+        margin-bottom: 1em;
+    .thumbnail{
+        width: 100%;
+        overflow: hidden;
+
+        img{
+            -webkit-transition: all 0.5s ease;
+        }
+        img:hover{
+            transform: scale(1.3);
+        }     
+    }
+    @media (max-width){
+        
+    }
+}

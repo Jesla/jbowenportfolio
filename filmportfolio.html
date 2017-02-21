@@ -7,14 +7,16 @@
     <meta property="og:site_name" content="Makeup By Jared Bowen" />
     <meta name="author" content="Chris Seale and Jessica Larsen">
     <!--<meta property="og:image" content="http://makeupbyjared.com/images/makeupbyjared.png">-->
-    <title>Bio</title>
+    <title>Film Portfolio</title>
     <title>Makeup By Jared Bowen</title>
     <!--<meta name="description" content="PUT THE SITE DESCRIPTION HERE">-->
     <!--<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
     <link href="navbar.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="css/application.css">
 </head>
     <body>
@@ -37,8 +39,8 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Portfolio
                             </a>
-                            <div class="dropdown-menu portDrop" aria-labelledby="dropdownPortfolio">
-                                <a class="dropdown-item portDrop" href="filmportfolio.html">Film</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownPortfolio">
+                                <a class="dropdown-item" href="filmportfolio.html">Film</a>
                                 <a class="dropdown-item" href="stageportfolio.html">Stage</a>
                                 <a class="dropdown-item" href="beautyportfolio.html">Beauty</a>
                             </div>
@@ -59,102 +61,107 @@
 
 
         <!--BEGIN PAGE CONTENT-->
-           <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+          
+<div class="container portfolio-container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/1.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/1.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/2.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/2.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/3.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/3.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/4.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/4.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/5.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/5.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/6.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/6.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
                         </div>
-                    </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/1.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/1.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/2.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/2.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/3.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/3.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/4.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/4.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/5.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/5.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/portfolio/thumbnails/6.jpg" data-lightbox="beauty">
+                                <img src="images/portfolio/thumbnails/6.jpg" alt="">
+                            </a>
+                            <p class="caption">Thumbnail image</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
 
 
         
@@ -183,12 +190,16 @@
 
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.6"></script>
+        <!-- Add mousewheel plugin (this is optional) -->
+        <script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <!--<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>-->
-        <script type="text/javascript" src="scripts.js"></script>
+        crossorigin="anonymous"></script>-->
+        <script src="javascript/lightbox.js"></script>
+        <script type="text/javascript" src="javascript/scripts.js"></script>
     </body>
 </html>
