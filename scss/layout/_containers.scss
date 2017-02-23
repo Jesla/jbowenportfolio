@@ -38,21 +38,28 @@
 }
 
 //bio-splash section
-#bio-splash{
-    text-align: center;
-    margin: 1em 4em 2em 4em;
+.runner{
+    width: 100%;
+    background-color: white;
 
-    #hr-top{
-        border-width: 3px;
-    }
-    #splash-title{
-        font-size: 2em;
-    }
-    #bio-para{
-        font-size: 1em;
-    }
-    #hr-bottom{
-        border-width: 3px;
+    #bio-splash{
+        text-align: center;
+        margin: 1em 4em 2em 4em;
+        z-index: 3;
+        background-color: white;
+
+        #hr-top{
+            border-width: 3px;
+        }
+        #splash-title{
+            font-size: 2em;
+        }
+        #bio-para{
+            font-size: 1em;
+        }
+        #hr-bottom{
+            border-width: 3px;
+        }
     }
 }
 @media (max-width: 768px){
@@ -69,9 +76,10 @@
 
 //home-page cards
 .port-cards {
+    position: relative;
     background-color: $color-border-light;
     padding: 0.5em 2.5em 0.5em 2.5em; 
-    margin-bottom: 2em;
+    margin-bottom: 10em;
 
     .card-deck{
 
@@ -409,6 +417,9 @@
         width: 100%;
         height: 2em;
     }
+    .contact-container{
+        margin-bottom: 10em;
+    }
     @media (max-width: 340){
         .contact-container{
             margin-bottom: 0.05em;
@@ -416,6 +427,11 @@
     }
 
 //-----FILM PORTFOLIO-----------
+.portfolio-container{
+    margin-bottom: 10em;
+    background: white;
+    z-index: 2;
+}
 .film-container{
     display: -webkit-flex;
     display: flex;
@@ -431,7 +447,8 @@
     right: 0;
     min-height: 1000px;
     margin-top: 4em;
-    margin-bottom: 1em;
+    margin-bottom: 10em;
+    background-color: white;
 
     .flex-img1{
         background-image: url("../images/portfolio/thumbnails/1.jpg");
@@ -484,21 +501,27 @@
 }
 
 //------Beauty portfolio---------
-.portfolio-container{
-        margin-top: 4.5em;
-        margin-bottom: 1em;
-    .thumbnail{
-        width: 100%;
-        overflow: hidden;
+.runner-port{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10em;
 
-        img{
-            -webkit-transition: all 0.5s ease;
+    .portfolio-container{
+            margin-top: 4.5em;
+            margin-bottom: 1em;
+        .thumbnail{
+            width: 100%;
+            overflow: hidden;
+
+            img{
+                -webkit-transition: all 0.5s ease;
+            }
+            img:hover{
+                transform: scale(1.3);
+            }     
         }
-        img:hover{
-            transform: scale(1.3);
-        }     
-    }
-    @media (max-width){
-        
+        @media (max-width){
+            
+        }
     }
 }
