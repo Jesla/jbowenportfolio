@@ -491,13 +491,13 @@
         margin-top: -10.25em;
         margin-bottom: 10em;
     }
-    @media (max-width: 340){
-        .spacer{
-            margin-top: 10em;
-        }
+    @media (max-width: 340px){
+        // .spacer{
+        //     margin-top: 10em;
+        // }
         .contact-container{
-            margin-top: 10.0em;
-            margin-bottom: 0.05em;
+            margin-top: -7em;
+            margin-bottom: 10em;
         }
     }
 
